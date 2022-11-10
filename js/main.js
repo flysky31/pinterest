@@ -70,9 +70,7 @@ let pop = document.querySelector("#popup");
         const i_width = window.innerWidth;
         if(i_width < 767){
             pop.classList.remove("on");
-        } else{
-            pop.classList.add("on");
-        }
+        } 
         console.log(i_width)
     }
     
